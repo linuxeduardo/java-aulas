@@ -16,7 +16,8 @@ public class Cliente {
     }
 
     double obterValorTotal() {
-        double total = 0;
+        @SuppressWarnings("unused")
+		double total = 0;
         System.out.println(this.compras.get(0).items);
         for(Compra c: compras) {
             total += c.obterValorTotal();
