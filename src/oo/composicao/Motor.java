@@ -5,7 +5,6 @@ public class Motor {
  	public boolean ligado = false;
  	
 	public char[] giros() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 }

@@ -1,6 +1,7 @@
 package oo.polimorfismo;
 
-public class Comida {
+public abstract class Comida {
+    // abstract não pode ser instanciada
     private double peso;
 
     // Polymorphism dynamic
