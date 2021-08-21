@@ -1,9 +1,9 @@
 package lambdas;
 
 public class Produto {
-    final String nome;
-    final double preco;
-    final double desconto;
+    final public String nome;
+    final public double preco;
+    final public double desconto;
 
     public Produto(String nome, double preco, double desconto) {
         this.nome = nome;

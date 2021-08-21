@@ -6,7 +6,13 @@ import java.util.function.Consumer;
 
 public class Consumidor {
     public static void main(String[] args) {
+        /*
+        Represents an operation that accepts a single input argument and returns no result. Unlike most other
+        functional interfaces, Consumer is expected to operate via side-effects.
+        This is a functional interface whose functional method is accept(Object).
+         */
         Consumer<Produto> imprimir = p -> System.out.println(p.nome);
+
         Produto p1 = new Produto("Caneta", 12.34, .9);
         Produto p2 = new Produto("Borracha", 4.34, 0);
         Produto p3 = new Produto("Caderno", 6.34, .25);
