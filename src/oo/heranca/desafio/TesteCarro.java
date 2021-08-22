@@ -14,6 +14,10 @@ public class TesteCarro {
         f1.acelerar();
         f1.ligarAr();
         f1.acelerar();
+        f1.velocidadeDoAr();
+        System.out.println(f1.velocidadeDoAr());
+
+        f1.desligarAr();
 
 //        System.out.println(c1.velocidade);
 //        System.out.println(f1.velocidade);
